@@ -14,7 +14,7 @@ export default class quizpage extends Component{
                 </h2>
 
                 <h3 id="question1">
-                    Which is the only mammal that can jump
+                    WHICH IS THE ONLY MAMMAL THAT CAN JUMP
                 </h3>
 
                 <div id="options">
@@ -24,10 +24,10 @@ export default class quizpage extends Component{
                     <button id="four4th ans">LION</button>
                 </div>
 
-                <div id="extraoptions">
-                    <button id="con previous">PREVIOUS</button>
-                    <button id="con next">NEXT</button>
-                    <button id="con quit">QUIT</button>
+                <div className="extraoptions">
+                    <button className="previous" id="con">PREVIOUS</button>
+                    <button className="con next">NEXT</button>
+                    <button className="con quit">QUIT</button>
                 </div>
                 
             </div>
